@@ -349,13 +349,32 @@
   }
 
   /* end of CSS reset */
+html {
+    font-size: 62.5%;
+}
 * {
     font-family: comic sans MS, roboto condensed;
 }
 body {
     margin: 0 auto;
+    background-color: #F0F8FF;
 }
 header {
     display: flex;
     justify-content: space-between;
+}
+h1 {
+    font-size: 3rem;
+}
+#header-nav {
+    margin-right: 1rem;
+    margin-top: 2rem;
+}
+#header-nav a {
+    border: 5px ridge black;
+    margin: -.5rem;
+    padding: 1rem;
+    background-color: #00008B;
+    color: white;
+    font-size: 2rem;
 }
