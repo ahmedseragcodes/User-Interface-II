@@ -382,6 +382,7 @@ h1 {
 #front-banner {
     display: flex;
     justify-content: center;
+    align-items: center;
     padding: 5rem;
     background: url(https://static.scientificamerican.com/sciam/cache/file/BCC3BD1E-5DC0-4843-A841706AE575C694_source.jpg?w=590&h=800&39BBF62E-5F96-4C6A-A59590CCF416DA11);
     background-position: center;
@@ -394,11 +395,13 @@ h1 {
 }
 #portfolio-container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     margin-top: 2rem;
 }
 #portfolio-container a {
     margin: 1rem;
+    border: 5px solid black;
 }
 footer {
     display: flex;
@@ -406,12 +409,39 @@ footer {
     align-items: center;
     padding: 5rem;
 }
-#footer-button {
+#footer-button1 {
     background-color: #7FFFD4;
     font-size: 2rem;
     padding: 1rem;
     border: .5rem ridge black;
 }
-#footer-button a {
+#footer-button1 a {
+    text-decoration: none;
+}
+#footer-button2 {
+    background-color: #7FFFD4;
+    font-size: 2rem;
+    padding: 1rem;
+    border: .5rem ridge black;
+}
+#footer-button2 a {
+    text-decoration: none;
+}
+#footer-button3 {
+    background-color: #7FFFD4;
+    font-size: 2rem;
+    padding: 1rem;
+    border: .5rem ridge black;
+}
+#footer-button3 a {
+    text-decoration: none;
+}
+#footer-button4 {
+    background-color: #7FFFD4;
+    font-size: 2rem;
+    padding: 1rem;
+    border: .5rem ridge black;
+}
+#footer-button4 a {
     text-decoration: none;
 }
