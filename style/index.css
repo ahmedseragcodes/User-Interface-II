@@ -398,10 +398,30 @@ h1 {
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
 }
 #portfolio-container a {
     margin: 1rem;
     border: 5px solid black;
+}
+#porttest {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+}
+#porttest2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+}
+#porttest3 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
 }
 footer {
     display: flex;
