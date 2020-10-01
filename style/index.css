@@ -349,7 +349,13 @@
   }
 
   /* end of CSS reset */
-
-
-
-  
+* {
+    font-family: comic sans MS, roboto condensed;
+}
+body {
+    margin: 0 auto;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+}
