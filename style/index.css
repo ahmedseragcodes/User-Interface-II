@@ -363,6 +363,15 @@ header {
     display: flex;
     justify-content: space-between;
 }
+@media (max-width:650px) {
+  #header-nav {
+    display: flex;
+
+  }
+  #header-nav a {
+    padding: .25rem;
+  }
+}
 h1 {
     font-size: 4rem;
 }
