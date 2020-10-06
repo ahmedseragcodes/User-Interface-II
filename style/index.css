@@ -67,11 +67,11 @@ header {
 h1 {
     font-size: 4rem;
 }
-#header-nav {
+.header-nav {
     margin-right: 1rem;
     margin-top: 2rem;
 }
-#header-nav a {
+.header-nav a {
     border: .5rem ridge black;
     margin: -.5rem;
     padding: 1rem;
@@ -176,11 +176,11 @@ footer button a {
     align-items: center;
     margin-bottom: 1rem;
   }
-  #header-nav {
+  .header-nav {
     display: flex;
     flex-direction: column;
   }
-  #header-nav a {
+  .header-nav a {
     padding: 1.5rem;
   }
   #front-banner {
